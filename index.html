@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dice Roller</title>
+
+    <style>
+        body{
+            background-color: beige;
+        }
+        h1{
+            padding: 15px;
+            font-size: 40px;
+            font-weight: 800;
+            font-family: cursive;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+        .img-dice {
+            height: 300px;
+            margin: 20px 30px;
+        }
+
+        .btn {
+            margin: 30px auto;
+            display: block;
+            height: 50px;
+            width: 125px;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: cursive;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div>
+        <h1>ROLL THE DICE</h1>
+
+        <img src="./asset/dice.png" class="img-dice" id="img-dice" />
+
+        <button class="btn" onclick="roll()">Roll</button>
+    </div>
+
+  
 </body>
+
 </html>
